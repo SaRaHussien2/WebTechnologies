@@ -1,0 +1,34 @@
+<frameset rows="20%,*"> 
+	<frame src="header.html"> 
+		<frameset  rows="90%,*" >
+				<frameset cols="20%,*">
+
+				<frame src="menu.html">
+				<frame src="afterstyling.html"></frame>
+			</frameset>
+					<frame src="footer.html"></frame>
+
+		</frameset>
+
+</frameset>
+
+
+
+<!--
+
+
+<frameset rows="20%,*"> 
+	<frame src="header.html"> 
+		<frameset cols="20%,*">
+			<frame src="menu.html">
+				<frameset rows="80%,*">
+					<frame src="afterstyling.html"></frame>
+				</frameset>
+				
+					<frame src="footer.html"></frame>
+				</frameset>
+		</frameset>
+</frameset>
+
+
+ -->

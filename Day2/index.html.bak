@@ -1,0 +1,107 @@
+<html>
+
+	<head>
+		<title>Registration form</title>
+	</head>
+	<!–– Start body -->
+	
+	<body bgcolor="pink" link="#C0C0C0" vlink="#808080" alink="#ff0000">
+		
+		
+		<!–– Start table -->
+		<form method="post" action="thanks.html"  >
+			<table  width="35%" border="10"  align="center" bgcolor="#fff" bordercolor="#ff0000" cellspacing="1" cellpadding="3"  >
+			
+				<tr>
+					<td colspan="3"  valign="middle" align="center" > <h1>Registration Form</h1></td>
+				</tr>
+				
+				<tr>
+					<td>First Name</td>
+					<td colspan="3"> <input type="text" name="firstname"  title="range from 3 to 10 and letters only" pattern="[A-Za-z]{3,10}$" minlength="3" maxlength="10" required autofocus> </td>
+				</tr>
+				
+				<tr>
+					<td>Last Name</td>
+					<td colspan="3"><input type="text" name="lastname" title="range from 3 to 10 and letters only" pattern="[A-Za-z]{3,10}$"   minlength="3" maxlength="10" required></td>
+				</tr>
+				
+				<tr>
+					<td>User Name</td>
+					<td colspan="3"><input type="text" name="username" title="range from 3 to 10, Accept letters & numbers only"  pattern="[A-Za-z\d*]{3,10}$"  minlength="3" maxlength="10"  required></td>
+				</tr>
+				
+				<tr>
+					<td>Pass</td>
+					<td colspan="2"><input type="password" name="password" pattern=".{8,}" title="8 to 20 characters and numbers"  minlength="8" maxlength="20"  required></td>
+				</tr>
+				
+				<tr>
+					<td>Track</td>
+					<td colspan="3">
+						<select name="track" id="track" required>
+						<option value="">Please select</option>
+						  <option value="sd">SD</option>
+						  <option value="qa">QA</option>
+						  <option value="java">Java</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr >
+					<td >Gender</td>
+					<td colspan="3">
+						<input type="radio" name="genderOption" value="male" title="Please choose the Gender" required>
+						Male
+						<br>
+						<input type="radio" name="genderOption" value="female">
+						Female
+					</td>
+				</tr>
+				
+				<tr >
+					<td >Favorites</td>
+					<td colspan="3" >
+						<input type="checkbox" name="Favorites" value="Football">
+						 Football
+					
+						<input type="checkbox" name="Favorites" value="Basketball">
+						Basketball
+						
+						<input type="checkbox" name="Favorites" value="Games">
+						Games
+						<br>
+						
+						<input type="checkbox" name="Favorites" value="Reading">
+						 Reading
+					
+						<input type="checkbox" name="Favorites" value="Swimming">
+						Swimming
+						
+						<input type="checkbox" name="Favorites" value="Travel">
+						Travel
+					</td>
+				</tr>
+				
+				<tr >
+					<td >Description</td>
+					<td colspan="3">
+						<input type="textarea" / rowspan="3">
+						
+					</td>
+				</tr>
+
+				<tr>
+					<td colspan="2" align="middle">
+						<input type="Submit" value="Submit" formvalidate="formvalidate" >
+						
+						<input type="reset" value="Reset">
+					</td>
+				</tr>
+
+			</table>
+		</form>
+		<!–– End table -->
+
+	</body>
+</html>

@@ -1,0 +1,108 @@
+<html>
+
+	<head>
+		<title>Page 1</title>
+	</head>
+	<!–– Start body -->
+	
+	<body bgcolor="pink" link="#C0C0C0" vlink="#808080" alink="#ff0000">
+		
+		
+		<!–– Start table -->
+		<center>
+		<table  width="35%" border="10"  bgcolor="#fff" bordercolor="#ff0000" cellspacing="1" cellpadding="3"  >
+		
+			<tr>
+				<td colspan="3"  valign="middle" align="center" > <h1>Registration Form</h1></td>
+			</tr>
+			
+			<tr>
+				<td>First Name</td>
+				<td colspan="3"> <input type="text" name="firstname"> </td>
+			</tr>
+			<tr>
+				<td>Last Name</td>
+				<td colspan="3"><input type="text" name="lastname"></td>
+			</tr>
+			<tr>
+				<td>User Name</td>
+				<td colspan="3"><input type="text" name="username"></td>
+			</tr>
+			
+			<tr>
+				<td>Pass</td>
+				<td colspan="2"><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td>Track</td>
+				<td colspan="3">
+					<select name="track" id="track">
+					  <option value="sd">SD</option>
+					  <option value="qa">QA</option>
+					  <option value="java">Java</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr >
+				<td >Gender</td>
+				<td colspan="3">
+					<input type="radio" name="genderOption" value="male" checked >
+					Male
+
+					<br>
+					
+					
+					<input type="radio" name="genderOption" value="female" >
+					Female
+				</td>
+			</tr>
+			
+			<tr >
+				<td >Favorites</td>
+				<td colspan="3">
+				
+					<input type="checkbox" name="Favorites" value="Football">
+					 Football
+				
+					<input type="checkbox" name="Favorites" value="Basketball">
+					Basketball
+					
+					<input type="checkbox" name="Favorites" value="Games">
+					Games
+					<br>
+					
+					<input type="checkbox" name="Favorites" value="Reading">
+					 Reading
+				
+					<input type="checkbox" name="Favorites" value="Swimming">
+					Swimming
+					
+					<input type="checkbox" name="Favorites" value="Travel">
+					Travel
+				</td>
+			</tr>
+			
+			
+			<tr >
+				<td >Description</td>
+				<td colspan="3">
+					<textarea id="textarea" name="textarea" rows="4" cols="20">
+					</textarea>
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2" align="middle">
+					<input type="Submit" value="Submit">
+					
+					<input type="reset" value="Reset">
+				</td>
+			</tr>
+
+		</table>
+		</center>
+		<!–– End table -->
+
+	</body>
+</html>

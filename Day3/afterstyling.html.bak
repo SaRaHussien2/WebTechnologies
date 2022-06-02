@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>Home page</title>
+			<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+		<body class="afterstyling_body">
+			 <h2>This is a blue underlined header</h2>
+			 <h3>the paragraph section</h3>
+			 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum, 
+			 ante id venenatis facilisis, eros turpis finibus ex,Lorem ipsum</p>
+			 <p class="red-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit Lorem ipsum dolor</p>
+			 <p>Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+			 <p>Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+			 
+			 <br>
+			 
+			 <h3>lists </h3>
+			 <ul>
+				<li class="first_li"><span>apply css by id</span></li>
+				<li class="second_li"><span>apply css by class</span></li>
+				<li class="third_li"><span>inline css</span></li>
+
+			 </ul>
+			<br>
+
+			 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum, 
+			 ante id venenatis facilisis, eros turpis finibus ex,, consectetur adipiscing elit. In bibendum, 
+			 ante id venenatis facilisis, eros turpis finibus ex</p>
+			
+			<br>
+			<br>
+			
+			 <table class="table">
+				<tr>
+					<td>1</td>
+					<td id="two">2</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td id="four">4</td>
+					<td>5</td>
+					<td>6</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>8</td>
+					<td>9</td>
+				</tr>
+			 </table>
+	</body>
+</html>

@@ -1,0 +1,76 @@
+.header_body{
+	background-color:pink;
+	text-align:center;
+	font-size:30px;
+	font-weight:bold;
+	padding-top:20px;
+}
+.menu_body{
+	
+}
+.menu_body ul li{
+	list-style: none;
+}
+.afterstyling_body{
+	background-color:aqua;
+}
+.afterstyling_body h2{
+	font-size:26px;
+	text-align:center;
+	text-decoration:underline;
+	color:blue;
+	font-weight:bold;
+}
+
+.afterstyling_body .red-paragraph {
+	color:red;
+	text-align:right;
+	font-size:20px;
+	font-weight:500;
+	
+}
+
+.afterstyling_body ul span
+{
+	color: black;
+	
+}
+.afterstyling_body ul .first_li{color: red;}
+.afterstyling_body ul .second_li{color: blue;}
+.afterstyling_body ul .third_li{color: green;}
+.afterstyling_body ul span{
+	
+	color:green;
+}
+.afterstyling_body ul .first_li span{
+	border-bottom:1px solid red;
+	
+}
+.afterstyling_body .table {
+	
+	width:30%;
+	//background-color:green;
+	border: 20px solid black;
+}
+
+.afterstyling_body .table td {
+
+	padding: 5px;
+	text-align: left;
+    border: 1px solid black;
+}
+.afterstyling_body .table #two{
+	background-color:deeppink;
+	color:white;
+}
+
+.afterstyling_body .table #four{
+	color:blue;
+}
+
+.footer_body p{
+	font-weight:bold;
+	font-size:18px;
+	
+}
+
